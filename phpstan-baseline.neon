@@ -301,12 +301,6 @@ parameters:
 			path: tests/Feature/Auth/EmailVerificationTest.php
 
 		-
-			message: '#^Parameter \#1 \$string of function sha1 expects string, mixed given\.$#'
-			identifier: argument.type
-			count: 1
-			path: tests/Feature/Auth/EmailVerificationTest.php
-
-		-
 			message: '#^Call to an undefined method PHPUnit\\Framework\\TestCase\:\:actingAs\(\)\.$#'
 			identifier: method.notFound
 			count: 3
@@ -463,12 +457,6 @@ parameters:
 			path: tests/Feature/ExampleTest.php
 
 		-
-			message: '#^Access to an undefined property App\\Models\\User\:\:\$password\.$#'
-			identifier: property.notFound
-			count: 1
-			path: tests/Feature/Settings/PasswordUpdateTest.php
-
-		-
 			message: '#^Call to an undefined method App\\Models\\User\|Illuminate\\Database\\Eloquent\\Collection\<int, App\\Models\\User\>\:\:refresh\(\)\.$#'
 			identifier: method.notFound
 			count: 1
@@ -509,18 +497,6 @@ parameters:
 			identifier: method.nonObject
 			count: 2
 			path: tests/Feature/Settings/PasswordUpdateTest.php
-
-		-
-			message: '#^Parameter \#2 \$hashedValue of static method Illuminate\\Support\\Facades\\Hash\:\:check\(\) expects string, mixed given\.$#'
-			identifier: argument.type
-			count: 1
-			path: tests/Feature/Settings/PasswordUpdateTest.php
-
-		-
-			message: '#^Access to an undefined property App\\Models\\User\:\:\$email_verified_at\.$#'
-			identifier: property.notFound
-			count: 1
-			path: tests/Feature/Settings/ProfileUpdateTest.php
 
 		-
 			message: '#^Access to an undefined property App\\Models\\User\|Illuminate\\Database\\Eloquent\\Collection\<int, App\\Models\\User\>\:\:\$email\.$#'
@@ -604,12 +580,6 @@ parameters:
 			message: '#^Cannot call method patch\(\) on mixed\.$#'
 			identifier: method.nonObject
 			count: 2
-			path: tests/Feature/Settings/ProfileUpdateTest.php
-
-		-
-			message: '#^Unable to resolve the template type TValue in call to function expect$#'
-			identifier: argument.templateType
-			count: 4
 			path: tests/Feature/Settings/ProfileUpdateTest.php
 
 		-
