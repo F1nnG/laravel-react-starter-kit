@@ -1,0 +1,9 @@
+parameters:
+    level: max
+    paths:
+        - app
+        - database
+        - routes
+        - tests
+includes:
+    - phpstan-baseline.neon
